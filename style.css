@@ -120,3 +120,43 @@ nav{
 .img-placeholder p{
     margin: 0 auto;
 }
+
+/*---- Two ----*/
+#two{
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+}
+
+#two h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-background);
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.cards{
+    justify-content: space-around;
+    
+}
+
+.card{
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--button-color);
+    margin: 1vh 0vw;
+    border-radius: 10px;
+}
+
+.card p{
+    text-align:center;
+    font-size: 18px;
+    color: grey;
+}
