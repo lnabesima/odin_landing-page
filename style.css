@@ -219,3 +219,11 @@ nav {
 	font-size: 18px;
 	font-weight: 500;
 }
+
+/*---- Footer ----*/
+footer {
+	padding: 4rem 5rem;
+	background-color: var(--dark-background);
+	text-align: center;
+	color: var(--main-text);
+}
