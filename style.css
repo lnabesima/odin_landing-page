@@ -35,6 +35,10 @@ a {
 	display: flex;
 }
 
+.grid {
+	display: grid;
+}
+
 button {
 	flex-shrink: 0;
 	width: 9vw;
@@ -182,4 +186,36 @@ nav {
 	font-weight: bold;
 	color: var(--dark-background);
 	font-style: normal;
+}
+
+/*---- Four ----*/
+#four {
+	padding: 5rem 0;
+}
+
+.news-container {
+	padding: 3rem 7rem;
+	border-radius: 10px;
+	background-color: var(--button-color);
+	grid-template-columns: 1.2fr 0.8fr;
+	place-items: center;
+}
+
+.text-wrapper h4,
+.text-wrapper p {
+	color: var(--secondary-text);
+	font-size: 18px;
+}
+
+.text-wrapper h4 {
+	font-size: 24px;
+}
+
+.news-container button {
+	justify-self: end;
+	background-color: var(--button-color);
+	border: 2px solid var(--secondary-text);
+	color: var(--secondary-text);
+	font-size: 18px;
+	font-weight: 500;
 }
