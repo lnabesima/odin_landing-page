@@ -14,7 +14,7 @@ a{
 }
 
 /*---- Base ----*/
-:root{
+:root{ 
     --dark-background: #1F2937;
     --main-text: #F9FAF8;
     --secondary-text: #E5E7EB;
